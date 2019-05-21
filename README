@@ -1,5 +1,0 @@
-An asset loader vor use in javascript projects.
-
-It loads images, javascript and css when they haven't been loaded in the dom yet, and prevents double inclusion of the same files.
-Do note that filenames are case sensitive and timestamps do matter.
-
