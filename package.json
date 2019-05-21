@@ -1,0 +1,27 @@
+{
+  "name": "@tschallacka/assetmanager",
+  "version": "1.0.0",
+  "description": "An assetmanager to dynamically load css and javascript files when they haven't been loaded yet.",
+  "main": "assetmanager.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tschallacka/npm_assetmanager.git"
+  },
+  "keywords": [
+    "assetmanager",
+    "october",
+    "octobercms"
+  ],
+  "dependencies": {
+    "jquery": "*"
+  },
+  "author": "Tschallacka, OctoberCMS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tschallacka/npm_assetmanager/issues"
+  },
+  "homepage": "https://github.com/tschallacka/npm_assetmanager#readme"
+}
