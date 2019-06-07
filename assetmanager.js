@@ -31,7 +31,7 @@ module.exports = function() {
             	if(item.indexOf('?') != -1) {
             		item = item.substring(0, item.indexOf('?'));
             	}
-                return $('head link[href*="'+item+'"]').length == 0 && loaded.indexOf(item) == -1;
+                return $('head link[rel="stylesheet"][href*="'+item+'"]').length == 0 && loaded.indexOf(item) == -1;
             });
 
             var cssCounter = 0,

@@ -1,6 +1,6 @@
 {
   "name": "@tschallacka/assetmanager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An assetmanager to dynamically load css and javascript files when they haven't been loaded yet.",
   "main": "assetmanager.js",
   "scripts": {
