@@ -22,7 +22,7 @@ module.exports = function() {
             	if(item.indexOf('?') != -1) {
             		item = item.substring(0, item.indexOf('?'));
             	}
-                return $('head script[src*="'+item+'"]').length == 0 && (loaded.filter(s => s.indexOf(item) > -1).length > 0);
+                return $('head script[src*="'+item+'"]').length == 0 && (loaded.filter(s => s.indexOf(item) > -1).length == 0);
             });
             
             loaded = this.closureCSSList;
